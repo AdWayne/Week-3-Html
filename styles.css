@@ -6,7 +6,7 @@
     border-radius: 5px;
     background-color: #f9f9f9;
 }
-.a{
+.s{
     width: 100px;
     height: 100px;
     margin-left: 8.5%;
@@ -57,7 +57,7 @@
     height: 50%;
     background-color: rgb(196, 192, 192,0.5);
 }
-.block{
+.bloshni{
     display: block;
     background-color: rgba(255, 0, 0, 0.5);
 }
@@ -76,4 +76,67 @@
 .container2 a {
     display: block;      
     margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+.a {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 4px;
+}
+.a:hover {
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+}
+.a:active {
+    background-color: #ff0202;
+    color: white;
+}
+.input:focus {
+    background-color: #000000;
+    color: white;
+}
+.list-container {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.list-container ul {
+    list-style-type: square;
+    padding-left: 20px;
+}   
+.list:first-child {
+    color: red;
+}
+.list:last-child{
+    color: blue;
+}
+.list-unikue:hover{
+    color: green;
+    cursor: pointer;
+}
+.block {
+    border: 2px solid #333;
+    padding: 15px;
+    margin: 15px;
+    background-color: #f0f0f0;
+    width: 250px;
+}
+.block p:first-child:hover {
+    color: white;
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 5px;
+}
+.block input:last-child:focus {
+    outline: none;
+    border: 2px solid red;
+    background-color: #ffe0e0;
 }
